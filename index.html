@@ -325,7 +325,14 @@
         <div class="absolute -bottom-6 right-1/3 text-2xl opacity-75">🌼</div>
 
         <div class="max-w-5xl mx-auto text-center relative z-10">
-          <img src="https://static.vecteezy.com/system/resources/thumbnails/055/168/619/small/ganesh-for-chaturthi-festival-free-vector.jpg" alt="Shree Ganesh" class="ganesh-symbol" />
+          <!-- Ganesh Ji centered horizontally with auto margins -->
+          <img 
+            src="./assets/img/ganeshji.png" 
+            alt="Shree Ganesh" 
+            class="mx-auto block mb-3"
+            style="width: 150px; height: 150px; filter: drop-shadow(0 0 10px var(--gold-glow));" 
+          />
+
           <p class="font-devanagari text-xl md:text-3xl text-gold-300 font-bold mb-3 tracking-widest drop-shadow-md">
             ॥ श्री गणेशाय नमः ॥
           </p>
@@ -406,44 +413,44 @@
           <div class="w-24 h-1 bg-gradient-to-r from-gold-600 via-gold-400 to-gold-600 mx-auto mt-3 rounded-full"></div>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-10 items-stretch">
-          <!-- The Groom Card -->
-          <div class="bg-white rounded-3xl shadow-xl border border-gold-300/80 overflow-hidden flex flex-col hover:shadow-2xl transition duration-500 group">
-            <div class="relative h-80 overflow-hidden bg-maroon-900">
-              <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=900&q=80" alt="Suraj Kumar Groom Portrait" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-700">
-              <div class="absolute inset-0 bg-gradient-to-t from-maroon-950 via-transparent to-transparent opacity-80"></div>
-              <div class="absolute bottom-4 left-6 right-6 flex justify-between items-end">
-                <div>
-                  <span class="text-[10px] uppercase font-bold tracking-widest text-gold-300 bg-maroon-900/90 px-3 py-1 rounded-full border border-gold-400" data-key="badge_groom">The Groom</span>
-                  <h3 class="text-2xl font-serif font-bold text-white mt-1">Suraj Kumar</h3>
-                </div>
-                <span class="text-2xl">👑</span>
-              </div>
-            </div>
+<div class="grid md:grid-cols-2 gap-10 items-stretch">
+  <!-- The Groom Card -->
+  <div class="bg-white rounded-3xl shadow-xl border border-gold-300/80 overflow-hidden flex flex-col hover:shadow-2xl transition duration-500 group">
+    <div class="relative h-80 overflow-hidden bg-maroon-950 flex items-center justify-center">
+      <img src="./assets/img/suraj.png" alt="Suraj Kumar Groom Portrait" class="w-full h-full object-contain object-center group-hover:scale-105 transition duration-700">
+      <div class="absolute inset-0 bg-gradient-to-t from-maroon-950/90 via-transparent to-transparent pointer-events-none"></div>
+      <div class="absolute bottom-4 left-6 right-6 flex justify-between items-end">
+        <div>
+          <span class="text-[10px] uppercase font-bold tracking-widest text-gold-300 bg-maroon-900/90 px-3 py-1 rounded-full border border-gold-400" data-key="badge_groom">The Groom</span>
+          <h3 class="text-2xl font-serif font-bold text-white mt-1">Suraj Kumar</h3>
+        </div>
+        <span class="text-2xl">👑</span>
+      </div>
+    </div>
 
-            <div class="p-6 md:p-8 flex flex-col flex-grow justify-between bg-silk-50">
-              <div class="space-y-3">
-                <p class="text-xs text-maroon-900 font-serif font-semibold">
-                  Son of <span class="font-bold text-maroon-950">Smt. Punam Devi</span> &amp; <span class="font-bold text-maroon-950">Sri Rajesh Sah</span>
-                </p>
-                <div class="text-xs text-gray-700 bg-white p-3.5 rounded-xl border border-gold-200">
-                  <strong class="text-maroon-900 block mb-0.5">Address:</strong>
-                  Nilachal Abasan, Hatiara, NewTown, Kolkata - 700157
-                </div>
-              </div>
-              <div class="pt-6 mt-4 border-t border-gold-200 flex justify-between items-center">
-                <button onclick="navigateTo('groom')" class="text-xs font-serif font-bold text-gold-700 hover:text-maroon-900 flex items-center gap-1 transition">
-                  Groom Side Ceremonies &amp; Details &rarr;
-                </button>
-              </div>
-            </div>
-          </div>
+    <div class="p-6 md:p-8 flex flex-col flex-grow justify-between bg-silk-50">
+      <div class="space-y-3">
+        <p class="text-xs text-maroon-900 font-serif font-semibold">
+          Son of <span class="font-bold text-maroon-950">Smt. Punam Devi</span> &amp; <span class="font-bold text-maroon-950">Sri Rajesh Sah</span>
+        </p>
+        <div class="text-xs text-gray-700 bg-white p-3.5 rounded-xl border border-gold-200">
+          <strong class="text-maroon-900 block mb-0.5">Address:</strong>
+          Nilachal Abasan, Hatiara, NewTown, Kolkata - 700157
+        </div>
+      </div>
+      <div class="pt-6 mt-4 border-t border-gold-200 flex justify-between items-center">
+        <button onclick="navigateTo('groom')" class="text-xs font-serif font-bold text-gold-700 hover:text-maroon-900 flex items-center gap-1 transition">
+          Groom Side Ceremonies &amp; Details &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
 
-          <!-- The Bride Card -->
+<!-- The Bride Card -->
           <div class="bg-white rounded-3xl shadow-xl border border-gold-300/80 overflow-hidden flex flex-col hover:shadow-2xl transition duration-500 group">
-            <div class="relative h-80 overflow-hidden bg-maroon-900">
-              <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80" alt="Anjali Kumari Bride Portrait" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-700">
-              <div class="absolute inset-0 bg-gradient-to-t from-maroon-950 via-transparent to-transparent opacity-80"></div>
+            <div class="relative h-80 overflow-hidden bg-maroon-950 flex items-center justify-center">
+              <img src="./assets/img/anj.png" alt="Anjali Kumari Bride Portrait" class="w-full h-full object-contain object-center group-hover:scale-105 transition duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-maroon-950/90 via-transparent to-transparent pointer-events-none"></div>
               <div class="absolute bottom-4 left-6 right-6 flex justify-between items-end">
                 <div>
                   <span class="text-[10px] uppercase font-bold tracking-widest text-gold-300 bg-maroon-900/90 px-3 py-1 rounded-full border border-gold-400" data-key="badge_bride">The Bride</span>
@@ -470,16 +477,21 @@
               </div>
             </div>
           </div>
+
+
+
+
         </div>
       </section>
+
 
       <!-- Visual Highlight: Timeline of Celebrations -->
       <section class="bg-gradient-to-b from-silk-100 to-silk-200 py-20 border-y-2 border-gold-300">
         <div class="max-w-5xl mx-auto px-4">
           <div class="text-center mb-14">
-            <p class="text-xs uppercase font-serif font-bold text-gold-700 tracking-widest mb-1">Auspicious Dates</p>
-            <h2 class="text-3xl md:text-4xl font-serif font-bold text-maroon-950">The Wedding Journey Timeline</h2>
-            <p class="text-xs text-gray-600 mt-2 font-serif">Preserving separate rituals harmoniously from 21 November to 27 November 2026</p>
+            <p class="text-xs uppercase font-serif font-bold text-gold-700 tracking-widest mb-1" data-tkey="timeline_badge">Auspicious Dates</p>
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-maroon-950" data-tkey="timeline_title">The Wedding Journey Timeline</h2>
+            <p class="text-xs text-gray-600 mt-2 font-serif" data-tkey="timeline_sub">Preserving separate rituals harmoniously from 21 November to 27 November 2026</p>
           </div>
 
           <div class="relative border-l-2 border-gold-500 ml-4 md:ml-36 space-y-10 py-2">
@@ -487,67 +499,526 @@
             <!-- 21 Nov: Groom Haldi -->
             <div class="relative pl-6 md:pl-10">
               <div class="absolute -left-3.5 top-1.5 w-7 h-7 rounded-full bg-gold-500 border-2 border-white flex items-center justify-center text-xs shadow-md">🌼</div>
-              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase">21 Nov 2026</div>
-              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300">
-                <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300">Groom Side</span>
-                <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1">🌼 Haldi Ceremony</h4>
-                <p class="text-xs text-gray-600 mt-1">Sacred turmeric paste application, auspicious songs, and celebration in Kolkata.</p>
+              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase" data-tkey="date_21_nov">21 Nov 2026</div>
+              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300 flex flex-col justify-between">
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300" data-tkey="side_groom">Groom Side</span>
+                  <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1" data-tkey="t_haldi_groom">🌼 Haldi Ceremony</h4>
+                  <p class="text-xs text-gray-600 mt-1" data-tkey="d_haldi_groom">Sacred turmeric paste application, auspicious songs, and celebration in Kolkata.</p>
+                </div>
+                <div class="mt-3">
+                  <button type="button" onclick="openTimelineModal('groom_haldi')" class="inline-flex items-center gap-1.5 text-xs font-bold text-maroon-800 hover:text-gold-700 bg-amber-50 hover:bg-amber-100 border border-gold-400 px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                    <span data-tkey="btn_view_details">View Details &amp; Significance</span> ➔
+                  </button>
+                </div>
               </div>
             </div>
 
             <!-- 22 Nov: Groom Mehndi -->
             <div class="relative pl-6 md:pl-10">
               <div class="absolute -left-3.5 top-1.5 w-7 h-7 rounded-full bg-gold-500 border-2 border-white flex items-center justify-center text-xs shadow-md">🌿</div>
-              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase">22 Nov 2026</div>
-              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300">
-                <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300">Groom Side</span>
-                <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1">🌿 Mehndi Celebration</h4>
-                <p class="text-xs text-gray-600 mt-1">Traditional henna patterns, folk music, beats, and family rejoicings.</p>
+              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase" data-tkey="date_22_nov">22 Nov 2026</div>
+              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300 flex flex-col justify-between">
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300" data-tkey="side_groom">Groom Side</span>
+                  <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1" data-tkey="t_mehndi_groom">🌿 Mehndi Celebration</h4>
+                  <p class="text-xs text-gray-600 mt-1" data-tkey="d_mehndi_groom">Traditional henna patterns, folk music, beats, and family rejoicings.</p>
+                </div>
+                <div class="mt-3">
+                  <button type="button" onclick="openTimelineModal('groom_mehndi')" class="inline-flex items-center gap-1.5 text-xs font-bold text-maroon-800 hover:text-gold-700 bg-amber-50 hover:bg-amber-100 border border-gold-400 px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                    <span data-tkey="btn_view_details">View Details &amp; Significance</span> ➔
+                  </button>
+                </div>
               </div>
             </div>
 
             <!-- 23 Nov: Dual-Side Milestone -->
             <div class="relative pl-6 md:pl-10">
               <div class="absolute -left-3.5 top-1.5 w-7 h-7 rounded-full bg-crimson-800 text-white border-2 border-white flex items-center justify-center text-xs shadow-md">🪷</div>
-              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase">23 Nov 2026</div>
+              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase" data-tkey="date_23_nov">23 Nov 2026</div>
               <div class="grid sm:grid-cols-2 gap-4">
-                <div class="bg-white p-5 rounded-2xl shadow-md border-2 border-gold-400">
-                  <span class="text-[10px] font-bold uppercase tracking-wider bg-red-100 text-red-900 px-3 py-0.5 rounded-full border border-red-300">Bride Side</span>
-                  <h4 class="text-base font-serif font-bold text-maroon-900 mt-1">🌼 Haldi / Mehndi</h4>
-                  <p class="text-xs text-gray-600 mt-1">Auspicious bridal turmeric anointment and traditional Maithili-Angika henna rituals in Banka, Bihar.</p>
+                
+                <!-- Bride Side Haldi / Mehndi -->
+                <div class="bg-white p-5 rounded-2xl shadow-md border-2 border-gold-400 flex flex-col justify-between">
+                  <div>
+                    <span class="text-[10px] font-bold uppercase tracking-wider bg-red-100 text-red-900 px-3 py-0.5 rounded-full border border-red-300" data-tkey="side_bride">Bride Side</span>
+                    <h4 class="text-base font-serif font-bold text-maroon-900 mt-1" data-tkey="t_haldi_bride">🌼 Haldi / Mehndi</h4>
+                    <p class="text-xs text-gray-600 mt-1" data-tkey="d_haldi_bride">Auspicious bridal turmeric anointment and traditional Maithili-Angika henna rituals in Banka, Bihar.</p>
+                  </div>
+                  <div class="mt-3">
+                    <button type="button" onclick="openTimelineModal('bride_haldi_mehndi')" class="inline-flex items-center gap-1.5 text-xs font-bold text-maroon-800 hover:text-gold-700 bg-amber-50 hover:bg-amber-100 border border-gold-400 px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                      <span data-tkey="btn_view_details">View Details &amp; Significance</span> ➔
+                    </button>
+                  </div>
                 </div>
-                <div class="bg-white p-5 rounded-2xl shadow-md border-2 border-gold-400">
-                  <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300">Groom Side</span>
-                  <h4 class="text-base font-serif font-bold text-maroon-900 mt-1">🪷 Mandap / Barat Departure</h4>
-                  <p class="text-xs text-gray-600 mt-1">Mandap pooja, rituals, elder blessings, and departure of the groom's procession from Kolkata to Banka.</p>
+
+                <!-- Groom Side Mandap / Barat -->
+                <div class="bg-white p-5 rounded-2xl shadow-md border-2 border-gold-400 flex flex-col justify-between">
+                  <div>
+                    <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300" data-tkey="side_groom">Groom Side</span>
+                    <h4 class="text-base font-serif font-bold text-maroon-900 mt-1" data-tkey="t_mandap_groom">🪷 Mandap / Barat Departure</h4>
+                    <p class="text-xs text-gray-600 mt-1" data-tkey="d_mandap_groom">Mandap pooja, rituals, elder blessings, and departure of the groom's procession from Kolkata to Banka.</p>
+                  </div>
+                  <div class="mt-3">
+                    <button type="button" onclick="openTimelineModal('groom_mandap_barat')" class="inline-flex items-center gap-1.5 text-xs font-bold text-maroon-800 hover:text-gold-700 bg-amber-50 hover:bg-amber-100 border border-gold-400 px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                      <span data-tkey="btn_view_details">View Details &amp; Significance</span> ➔
+                    </button>
+                  </div>
                 </div>
+
               </div>
             </div>
 
             <!-- 24 Nov: Bride Barat & Wedding -->
             <div class="relative pl-6 md:pl-10">
               <div class="absolute -left-3.5 top-1.5 w-7 h-7 rounded-full bg-gold-600 text-maroon-950 border-2 border-white flex items-center justify-center text-xs shadow-md">🥁</div>
-              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase">24 Nov 2026</div>
-              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300">
-                <span class="text-[10px] font-bold uppercase tracking-wider bg-red-100 text-red-900 px-3 py-0.5 rounded-full border border-red-300">Bride Side</span>
-                <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1">🥁 Barat Arrival, Jaimala &amp; Sacred Vivah</h4>
-                <p class="text-xs text-gray-600 mt-1">Grand welcoming of the Barat, exchange of garlands, Vedic chants, and seven sacred vows (Saptapadi) around the holy fire in Banka.</p>
+              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase" data-tkey="date_24_nov">24 Nov 2026</div>
+              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300 flex flex-col justify-between">
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-wider bg-red-100 text-red-900 px-3 py-0.5 rounded-full border border-red-300" data-tkey="side_bride">Bride Side</span>
+                  <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1" data-tkey="t_vivah_bride">🥁 Barat Arrival, Jaimala &amp; Sacred Vivah</h4>
+                  <p class="text-xs text-gray-600 mt-1" data-tkey="d_vivah_bride">Grand welcoming of the Barat, exchange of garlands, Vedic chants, and seven sacred vows (Saptapadi) around the holy fire in Banka.</p>
+                </div>
+                <div class="mt-3">
+                  <button type="button" onclick="openTimelineModal('bride_barat_vivah')" class="inline-flex items-center gap-1.5 text-xs font-bold text-maroon-800 hover:text-gold-700 bg-amber-50 hover:bg-amber-100 border border-gold-400 px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                    <span data-tkey="btn_view_details">View Details &amp; Significance</span> ➔
+                  </button>
+                </div>
               </div>
             </div>
 
             <!-- 27 Nov: Groom Reception -->
             <div class="relative pl-6 md:pl-10">
               <div class="absolute -left-3.5 top-1.5 w-7 h-7 rounded-full bg-gold-500 border-2 border-white flex items-center justify-center text-xs shadow-md">💐</div>
-              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase">27 Nov 2026</div>
-              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300">
-                <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300">Groom Side</span>
-                <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1">💐 Grand Wedding Reception</h4>
-                <p class="text-xs text-gray-600 mt-1">Formal celebratory dinner banquet, blessings, and felicitations for the newlyweds in Kolkata.</p>
+              <div class="md:absolute md:-left-36 md:top-2 text-xs font-serif font-bold text-maroon-950 uppercase" data-tkey="date_27_nov">27 Nov 2026</div>
+              <div class="bg-white p-5 rounded-2xl shadow-md border border-gold-300 flex flex-col justify-between">
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-900 px-3 py-0.5 rounded-full border border-amber-300" data-tkey="side_groom">Groom Side</span>
+                  <h4 class="text-lg font-serif font-bold text-maroon-900 mt-1" data-tkey="t_reception_groom">💐 Grand Wedding Reception</h4>
+                  <p class="text-xs text-gray-600 mt-1" data-tkey="d_reception_groom">Formal celebratory dinner banquet, blessings, and felicitations for the newlyweds in Kolkata.</p>
+                </div>
+                <div class="mt-3">
+                  <button type="button" onclick="openTimelineModal('groom_reception')" class="inline-flex items-center gap-1.5 text-xs font-bold text-maroon-800 hover:text-gold-700 bg-amber-50 hover:bg-amber-100 border border-gold-400 px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                    <span data-tkey="btn_view_details">View Details &amp; Significance</span> ➔
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Event Details Popup Modal With Embedded Language Switcher -->
+      <div id="timelineDetailModal" class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/75 backdrop-blur-sm p-4 overflow-y-auto">
+        <div class="relative w-full max-w-xl bg-amber-50 border-2 border-gold-400 rounded-2xl shadow-2xl p-6 md:p-8 text-left transition-all my-8">
+          
+          <!-- Top Row: Badge, Modal-Only Language Switcher & Close Button -->
+          <div class="flex items-center justify-between gap-3 border-b border-gold-300/80 pb-4 mb-4">
+            <span id="modalSideBadge" class="text-[11px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full border"></span>
+
+            <div class="flex items-center gap-3">
+              <!-- LANGUAGE SWITCHER INSIDE THE MODAL -->
+              <div class="inline-flex items-center bg-white border border-gold-400 rounded-full p-1 shadow-inner">
+                <button type="button" onclick="setModalLanguage('hi')" id="modal-btn-hi" class="text-[11px] font-bold px-2.5 py-0.5 rounded-full transition-all text-gray-700 hover:text-maroon-950">
+                  हिन्दी
+                </button>
+                <button type="button" onclick="setModalLanguage('en')" id="modal-btn-en" class="text-[11px] font-bold px-2.5 py-0.5 rounded-full transition-all text-gray-700 hover:text-maroon-950">
+                  English
+                </button>
+                <button type="button" onclick="setModalLanguage('bn')" id="modal-btn-bn" class="text-[11px] font-bold px-2.5 py-0.5 rounded-full transition-all text-gray-700 hover:text-maroon-950">
+                  বাংলা
+                </button>
+              </div>
+
+              <!-- Close Button -->
+              <button type="button" onclick="closeTimelineModal()" class="w-8 h-8 rounded-full bg-maroon-900 text-gold-300 hover:text-white hover:bg-maroon-950 flex items-center justify-center text-sm font-bold shadow-md transition-all">
+                ✕
+              </button>
+            </div>
+          </div>
+
+          <!-- Modal Title & Date -->
+          <h3 id="modalEventTitle" class="text-2xl font-serif font-bold text-maroon-950"></h3>
+          <p id="modalEventDate" class="text-sm font-serif font-semibold text-gold-800 mt-1"></p>
+
+          <div class="my-3.5 h-0.5 bg-gradient-to-r from-gold-400 via-gold-200 to-transparent"></div>
+
+          <!-- Modal Content -->
+          <div class="space-y-4 text-xs md:text-sm text-gray-800">
+            <div>
+              <p class="font-bold text-maroon-950 uppercase tracking-wide text-[11px]" id="modalLblOverview">Ceremony Overview</p>
+              <p id="modalEventDesc" class="mt-1 leading-relaxed text-gray-700"></p>
+            </div>
+
+            <div class="bg-white p-4 rounded-xl border border-gold-300 shadow-sm">
+              <p class="font-bold text-maroon-950 uppercase tracking-wide text-[11px]" id="modalLblSignificance">Spiritual Meaning &amp; Tradition</p>
+              <p id="modalEventSignificance" class="mt-1 leading-relaxed text-gray-700 italic"></p>
+            </div>
+
+            <div class="bg-amber-100/70 p-3.5 rounded-xl border border-amber-300 flex items-start gap-2.5">
+              <span class="text-base">📍</span>
+              <div>
+                <p class="font-bold text-maroon-950 text-[11px] uppercase tracking-wide" id="modalLblVenue">Location</p>
+                <p id="modalEventLocation" class="text-xs text-gray-800 mt-0.5 font-medium"></p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <script>
+        // Language Dictionary
+        const timelineI18n = {
+          en: {
+            timeline_badge: "Auspicious Dates",
+            timeline_title: "The Wedding Journey Timeline",
+            timeline_sub: "Preserving separate rituals harmoniously from 21 November to 27 November 2026",
+            date_21_nov: "21 Nov 2026",
+            date_22_nov: "22 Nov 2026",
+            date_23_nov: "23 Nov 2026",
+            date_24_nov: "24 Nov 2026",
+            date_27_nov: "27 Nov 2026",
+            side_groom: "Groom Side",
+            side_bride: "Bride Side",
+            btn_view_details: "View Details & Significance",
+            lbl_overview: "Ceremony Overview",
+            lbl_significance: "Spiritual Meaning & Tradition",
+            lbl_venue: "Location",
+            t_haldi_groom: "🌼 Haldi Ceremony",
+            d_haldi_groom: "Sacred turmeric paste application, auspicious songs, and celebration in Kolkata.",
+            t_mehndi_groom: "🌿 Mehndi Celebration",
+            d_mehndi_groom: "Traditional henna patterns, folk music, beats, and family rejoicings.",
+            t_haldi_bride: "🌼 Haldi / Mehndi",
+            d_haldi_bride: "Auspicious bridal turmeric anointment and traditional Maithili-Angika henna rituals in Banka, Bihar.",
+            t_mandap_groom: "🪷 Mandap / Barat Departure",
+            d_mandap_groom: "Mandap pooja, rituals, elder blessings, and departure of the groom's procession from Kolkata to Banka.",
+            t_vivah_bride: "🥁 Barat Arrival, Jaimala & Sacred Vivah",
+            d_vivah_bride: "Grand welcoming of the Barat, exchange of garlands, Vedic chants, and seven sacred vows (Saptapadi) around the holy fire in Banka.",
+            t_reception_groom: "💐 Grand Wedding Reception",
+            d_reception_groom: "Formal celebratory dinner banquet, blessings, and felicitations for the newlyweds in Kolkata."
+          },
+          hi: {
+            timeline_badge: "मांगलिक तिथियां",
+            timeline_title: "वैवाहिक यात्रा एवं समय-सारणी",
+            timeline_sub: "21 नवंबर से 27 नवंबर 2026 तक दोनों पक्षों के पावन अनुष्ठान",
+            date_21_nov: "21 नवंबर 2026",
+            date_22_nov: "22 नवंबर 2026",
+            date_23_nov: "23 नवंबर 2026",
+            date_24_nov: "24 नवंबर 2026",
+            date_27_nov: "27 नवंबर 2026",
+            side_groom: "वर पक्ष",
+            side_bride: "वधू पक्ष",
+            btn_view_details: "रस्म का महत्व एवं विवरण देखें",
+            lbl_overview: "कार्यक्रम परिचय",
+            lbl_significance: "धार्मिक महत्व एवं परंपरा",
+            lbl_venue: "स्थान",
+            t_haldi_groom: "🌼 हल्दी अनुष्ठान",
+            d_haldi_groom: "कोलकाता आवास पर हल्दी का पावन उबटन, मंगल गीत एवं पारिवारिक आनंद।",
+            t_mehndi_groom: "🌿 मेहंदी उत्सव",
+            d_mehndi_groom: "सुहाग और उल्लास के रंगों से सजी मेहंदी संध्या, संगीत एवं नृत्य।",
+            t_haldi_bride: "🌼 हल्दी एवं मेहंदी",
+            d_haldi_bride: "बांका, बिहार में वधू का हल्दी लेपन एवं मैथिली-अंगिका लोकगीतों संग मेहंदी।",
+            t_mandap_groom: "🪷 मंडपाच्छादन एवं बारात प्रस्थान",
+            d_mandap_groom: "मंडप पूजन, कुलदेवता की आराधना और कोलकाता से बांका के लिए बारात की शुभ रवानगी।",
+            t_vivah_bride: "🥁 बारात स्वागत, जयमाला एवं पावन फेरे",
+            d_vivah_bride: "भव्य बारात स्वागत, जयमाला, वैदिक मंत्रोच्चार और पवित्र अग्नि के सम्मुख सात फेरे व कन्यादान।",
+            t_reception_groom: "💐 प्रीतिभोज एवं स्वागत समारोह",
+            d_reception_groom: "कोलकाता में नवदंपति के स्वागत में प्रीतिभोज, शुभाशीष एवं मंगल मिलन।"
+          },
+          bn: {
+            timeline_badge: "শুভ দিনপঞ্জিকা",
+            timeline_title: "শুভ বিবাহ যাত্রাপথ",
+            timeline_sub: "২১ নভেম্বর থেকে ২৭ নভেম্বর ২০২৬ পর্যন্ত উভয় পক্ষের মাঙ্গলিক অনুষ্ঠান",
+            date_21_nov: "২১ নভেম্বর ২০২৬",
+            date_22_nov: "২২ নভেম্বর ২০২৬",
+            date_23_nov: "২৩ নভেম্বর ২০২৬",
+            date_24_nov: "২৪ নভেম্বর ২০২৬",
+            date_27_nov: "২৭ নভেম্বর ২০২৬",
+            side_groom: "বর পক্ষ",
+            side_bride: "কনে পক্ষ",
+            btn_view_details: "রীতিনীতি ও তাৎপর্য দেখুন",
+            lbl_overview: "অনুষ্ঠান পরিচয়",
+            lbl_significance: "আধ্যাত্মিক তাৎপর্য ও ঐতিহ্য",
+            lbl_venue: "স্থান",
+            t_haldi_groom: "🌼 গায়ে হলুদ",
+            d_haldi_groom: "কলকাতার বাসভবনে হলুদ লেপন, মাঙ্গলিক গান ও পারিবারিক আনন্দ।",
+            t_mehndi_groom: "🌿 মেহেন্দি উৎসব",
+            d_mehndi_groom: "মেহেন্দির রঙে সাজানো আনন্দঘন সন্ধ্যা ও লোকসঙ্গীত।",
+            t_haldi_bride: "🌼 গায়ে হলুদ ও মেহেন্দি",
+            d_haldi_bride: "বিহারের বাঁকায় কনের মাঙ্গলিক হলুদ ও ঐতিহ্যবাহী মেহেন্দির রীতিনীতি।",
+            t_mandap_groom: "🪷 মণ্ডপ পূজা ও বরযাত্রী রওনা",
+            d_mandap_groom: "মণ্ডপ পূজা শেষে কলকাতা থেকে বাঁকার উদ্দেশ্যে বরযাত্রীর শুভ যাত্রা।",
+            t_vivah_bride: "🥁 বরবরণ, মালাবদল ও শুভ পরিণয়",
+            d_vivah_bride: "বাঁকার প্রাঙ্গণে বরবরণ, মালাবদল, বৈদিক মন্ত্রোচ্চারণে সাতপাক ও কন্যাদান।",
+            t_reception_groom: "💐 প্রীতিভোজ ও সংবর্ধনা",
+            d_reception_groom: "কলকাতায় নবদম্পতির আগমন উপলক্ষে প্রীতিভোজ ও আশীর্বাদ অনুষ্ঠান।"
+          }
+        };
+
+        // Modal Content Data (Trilingual)
+        const timelineEventsData = {
+          groom_haldi: {
+            sideKey: "side_groom",
+            sideType: "groom",
+            en: {
+              title: "🌼 Groom Haldi Ceremony",
+              date: "Saturday, 21 November 2026",
+              location: "Nilachal Abasan, Hatiara, NewTown, Kolkata - 700157",
+              desc: "The celebratory beginning of the wedding festivities at the groom's residence in Kolkata with loved ones applying sacred turmeric ubtan paste.",
+              significance: "In Indian Vedic tradition, turmeric purifies the body and mind, radiates golden aura, and acts as a sacred shield against negativity before the marriage vows."
+            },
+            hi: {
+              title: "🌼 वर पक्ष हल्दी अनुष्ठान",
+              date: "शनिवार, 21 नवंबर 2026",
+              location: "निलाचल आवासन, हातियारा, न्यूटाउन, कोलकाता - 700157",
+              desc: "वर के कोलकाता स्थित आवास पर परिजनों और मित्रों द्वारा सुगंधित हल्दी एवं उबटन लेपन के साथ विवाह उत्सव की पावन शुरुआत।",
+              significance: "सनातन परंपरा में हल्दी शुद्धि, तेज और सौभाग्य का प्रतीक है। यह नवजीवन में सकारात्मक ऊर्जा का संचार करती है और नकारात्मक शक्तियों से रक्षा करती है।"
+            },
+            bn: {
+              title: "🌼 বর পক্ষের গায়ে হলুদ",
+              date: "শনিবার, ২১ নভেম্বর ২০২৬",
+              location: "নীলাচল আবাসন, হাতিয়ারা, নিউটাউন, কলকাতা - ৭০০১৫৭",
+              desc: "কলকাতার বাসভবনে আত্মীয়স্বজনদের উপস্থিতিতে বরের পবিত্র গায়ে হলুদ ও মাঙ্গলিক স্নান সম্পন্ন হবে।",
+              significance: "সনাতন রীতিতে হলুদ ত্বক ও মনকে শুদ্ধ করে এবং নতুন জীবনের প্রারম্ভে শুভ শক্তির আশীর্বাদ বহন করে।"
+            }
+          },
+          groom_mehndi: {
+            sideKey: "side_groom",
+            sideType: "groom",
+            en: {
+              title: "🌿 Groom Mehndi Celebration",
+              date: "Sunday, 22 November 2026",
+              location: "Nilachal Abasan, Hatiara, NewTown, Kolkata - 700157",
+              desc: "An evening filled with traditional henna motifs, dhol beats, celebratory wedding music, and festive cheer in Kolkata.",
+              significance: "Mehndi represents prosperity and joy. It carries cooling medicinal properties that calm the senses amidst wedding enthusiasm."
+            },
+            hi: {
+              title: "🌿 वर पक्ष मेहंदी संध्या",
+              date: "रविवार, 22 नवंबर 2026",
+              location: "निलाचल आवासन, हातियारा, न्यूटाउन, कोलकाता - 700157",
+              desc: "कोलकाता आवास पर ढोलक की थाप, मांगलिक गीतों और सुहाग के प्रतीक मेहंदी के मनमोहक डिजाइनों से सजी एक यादगार संध्या।",
+              significance: "मेहंदी प्रेम, सौहार्द और खुशहाली का प्रतीक मानी जाती है। इसका प्राकृतिक शीतलता गुण विवाह के उल्लास के बीच मन को शांत रखता है।"
+            },
+            bn: {
+              title: "🌿 বর পক্ষের মেহেন্দি সন্ধ্যা",
+              date: "রবিবার, ২২ নভেম্বর ২০২৬",
+              location: "নীলাচল আবাসন, হাতিয়ারা, নিউটাউন, কলকাতা - ৭০০১৫৭",
+              desc: "আনন্দগান, ঢাকের বাদ্য এবং মেহেন্দির নকশায় সজ্জিত এক মনোরম উৎসবমুখর সন্ধ্যা।",
+              significance: "মেহেন্দি আনন্দ ও সৌভাগ্যের প্রতীক। এর ভেষজ সুবাস মন ও মস্তিষ্ককে শান্ত ও উৎফুল্ল রাখে।"
+            }
+          },
+          bride_haldi_mehndi: {
+            sideKey: "side_bride",
+            sideType: "bride",
+            en: {
+              title: "🌼 Bride Haldi & Mehndi Rituals",
+              date: "Monday, 23 November 2026",
+              location: "Kushmaha, Bounsi, Banka - 813104 (Bihar)",
+              desc: "Auspicious turmeric anointing followed by intricate bridal henna art celebrated with traditional Bihari, Maithili, and Angika folk songs.",
+              significance: "The deep color of henna symbolizes profound marital affection and blessings of fertility and harmony for the bride."
+            },
+            hi: {
+              title: "🌼 वधू पक्ष हल्दी एवं मेहंदी उत्सव",
+              date: "सोमवार, 23 नवंबर 2026",
+              location: "कुशमाहा, बौंसी, बांका - 813104 (बिहार)",
+              desc: "बांका स्थित पैतृक प्रांगण में वधू को हल्दी उबटन और सखियों संग पारंपरिक मैथिली-अंगिका विवाह गीतों के बीच सुंदर मेहंदी रस्म।",
+              significance: "मेहंदी का गहरा लाल रंग अखंड सौभाग्य और दांपत्य प्रेम की प्रगाढ़ता का सूचक माना जाता है।"
+            },
+            bn: {
+              title: "🌼 কনে পক্ষের গায়ে হলুদ ও মেহেন্দি",
+              date: "সোমবার, ২৩ নভেম্বর ২০২৬",
+              location: "কুশমহা, বৌশী, বাঁকা - ৮১৩১০৪ (বিহার)",
+              desc: "বিহারের বাঁকায় ঐতিহ্যবাহী লোকগীতি ও মাঙ্গলিক আচারের মধ্য দিয়ে কনের গায়ে হলুদ ও মেহেন্দি অনুষ্ঠিত হবে।",
+              significance: "মেহেন্দির গাঢ় রং চিরন্তন দাম্পত্য ভালোবাসা ও সৌভাগ্যের নিদর্শন।"
+            }
+          },
+          groom_mandap_barat: {
+            sideKey: "side_groom",
+            sideType: "groom",
+            en: {
+              title: "🪷 Mandap Puja & Barat Departure",
+              date: "Monday, 23 November 2026",
+              location: "Departure from Kolkata to Banka, Bihar",
+              desc: "Worship of the sacred Mandap sanctum, seeking blessings from ancestral deities and elders, followed by the grand departure of the Barat procession toward Banka.",
+              significance: "The Mandap sanctum represents the four cosmic pillars of human life: Dharma (righteousness), Artha (prosperity), Kama (love), and Moksha (spiritual freedom)."
+            },
+            hi: {
+              title: "🪷 मंडपाच्छादन एवं बारात प्रस्थान",
+              date: "सोमवार, 23 नवंबर 2026",
+              location: "कोलकाता से बांका, बिहार हेतु शुभ प्रस्थान",
+              desc: "मंडप पूजन के उपरांत कुलदेवता का आह्वान, बड़ों का चरण-स्पर्श और गाजे-बाजे के साथ बारात का बांका (बिहार) के लिए प्रस्थान।",
+              significance: "मंडप सृष्टि के चार स्तंभों—धर्म, अर्थ, काम और मोक्ष—का प्रतिनिधित्व करता है, जो सुखद वैवाहिक जीवन की आधारशिला हैं।"
+            },
+            bn: {
+              title: "🪷 মণ্ডপ পূজা ও বরযাত্রী প্রস্থান",
+              date: "সোমবার, ২৩ নভেম্বর ২০২৬",
+              location: "কলকাতা থেকে বাঁকা (বিহার) অভিমুখে শুভ যাত্রা",
+              desc: "পবিত্র মণ্ডপ পূজা, কুলদেবতার আরাধনা এবং গুরুজনদের আশীর্বাদ নিয়ে কলকাতার বাসভবন থেকে বরযাত্রীর শুভ প্রস্থান।",
+              significance: "মণ্ডপ মানবজীবনের চারটি মূল স্তম্ভ—ধর্ম, অর্থ, কাম ও মোক্ষের প্রতীক হিসেবে নবদম্পতির কল্যাণ নিশ্চিত করে।"
+            }
+          },
+          bride_barat_vivah: {
+            sideKey: "side_bride",
+            sideType: "bride",
+            en: {
+              title: "🥁 Barat Welcoming, Jaimala & Sacred Vivah",
+              date: "Tuesday, 24 November 2026",
+              location: "Kushmaha, Bounsi, Banka - 813104 (Bihar)",
+              desc: "Warm ceremonial reception of the Barat, floral garland exchange (Jaimala), Kanyadaan, and taking the seven sacred vows (Saptapadi) around the holy fire.",
+              significance: "The pinnacle of Hindu marriage where two souls unite for seven lifetimes through sacred Vedic mantras, Agni witness, and lifelong pledges."
+            },
+            hi: {
+              title: "🥁 बारात अगवानी, जयमाला एवं पावन सप्तपदी",
+              date: "मंगलवार, 24 नवंबर 2026",
+              location: "कुशमाहा, बौंसी, बांका - 813104 (बिहार)",
+              desc: "द्वारपूजा, परस्पर वरमाला समर्पण, कन्यादान एवं पवित्र अग्नि को साक्षी मानकर सात वचनों के साथ सात फेरों का अमर अनुष्ठान।",
+              significance: "हिंदू विवाह का सबसे पवित्र संस्कार, जहां अग्निदेव को साक्षी मानकर वर-वधू सात जन्मों के पावन प्रेम बंधन में बंधते हैं।"
+            },
+            bn: {
+              title: "🥁 বরবরণ, মালাবদল ও শুভ পরিণয়",
+              date: "মঙ্গলবার, ২৪ নভেম্বর ২০২৬",
+              location: "কুশমহা, বৌশী, বাঁকা - ৮১৩১০৪ (বিহার)",
+              desc: "বরযাত্রী বরণ, শুভ মালাবদল, কন্যাদান ও পবিত্র অগ্নিকে সাক্ষী রেখে সাতপাকে বাঁধা পড়ার সনাতন আচার।",
+              significance: "হিন্দু বৈবাহিক সংস্কৃতির সর্বশ্রেষ্ঠ লগ্ন, যেখানে দুটি পরিবার ও দুটি আত্মা অনন্ত প্রেমের বন্ধনে আবদ্ধ হয়।"
+            }
+          },
+          groom_reception: {
+            sideKey: "side_groom",
+            sideType: "groom",
+            en: {
+              title: "💐 Grand Wedding Reception Banquet",
+              date: "Friday, 27 November 2026",
+              location: "Kolkata (Venue details to be updated)",
+              desc: "A formal gala evening hosted by the groom's family in Kolkata to introduce and celebrate the newly married couple with relatives, friends, and dignitaries.",
+              significance: "Symbolizes communal blessing, formal acceptance into society, and sharing joy and fellowship over an auspicious feast."
+            },
+            hi: {
+              title: "💐 प्रीतिभोज एवं स्वागत समारोह (Reception)",
+              date: "शुक्रवार, 27 नवंबर 2026",
+              location: "कोलकाता (स्थल का विवरण शीघ्र साझा किया जाएगा)",
+              desc: "विवाह के पश्चात नवदंपति के स्वागत में कोलकाता में आयोजित स्नेहभोज, जहां सभी बंधु-बांधव और स्नेहीजन अपना आशीर्वाद भेंट करेंगे।",
+              significance: "समाज और कुटुंब द्वारा नववधू का औपचारिक स्वागत तथा नवदंपति के मंगलमय गृहस्थ जीवन के लिए सामूहिक शुभाशीष का प्रतीक।"
+            },
+            bn: {
+              title: "💐 শুভ বিবাহোত্তর প্রীতিভোজ ও সংবর্ধনা",
+              date: "শুক্রবার, ২৭ নভেম্বর ২০২৬",
+              location: "কলকাতা (স্থান শীঘ্রই আপডেট করা হবে)",
+              desc: "বিবাহের পর নবদম্পতিকে বরণ করে নেওয়ার জন্য কলকাতায় বর পক্ষের আয়োজনে এক মনোজ্ঞ প্রীতিভোজ ও সম্মিলন।",
+              significance: "সমাজে নবদম্পতির শুভ পদার্পণ ও আত্মীয়-পরিজনের উষ্ণ ভালোবাসায় নতুন জীবনের শুভারম্ভ।"
+            }
+          }
+        };
+
+        // Modal language state (Default: Hindi 'hi')
+        let modalActiveLang = 'eng';
+        let currentModalKey = null;
+
+        // Function called directly from the modal's buttons
+        function setModalLanguage(lang) {
+          modalActiveLang = lang;
+
+          // Update active style on modal buttons
+          ['hi', 'en', 'bn'].forEach(l => {
+            const btn = document.getElementById(`modal-btn-${l}`);
+            if (btn) {
+              if (l === lang) {
+                btn.className = "text-[11px] font-bold px-2.5 py-0.5 rounded-full transition-all bg-maroon-900 text-gold-300 shadow-sm";
+              } else {
+                btn.className = "text-[11px] font-bold px-2.5 py-0.5 rounded-full transition-all text-gray-700 hover:text-maroon-950";
+              }
+            }
+          });
+
+          // Refresh the modal content with the selected language
+          if (currentModalKey) {
+            renderModalContent(currentModalKey);
+          }
+
+          // Also synchronize the background timeline cards
+          const dict = timelineI18n[modalActiveLang] || timelineI18n.en;
+          document.querySelectorAll('[data-tkey]').forEach(el => {
+            const key = el.getAttribute('data-tkey');
+            if (dict[key]) {
+              el.innerText = dict[key];
+            }
+          });
+        }
+
+        // Open Modal
+        function openTimelineModal(eventKey) {
+          currentModalKey = eventKey;
+          setModalLanguage(modalActiveLang); // Renders content & highlights language button
+          
+          const modal = document.getElementById('timelineDetailModal');
+          modal.classList.remove('hidden');
+          modal.classList.add('flex');
+          document.body.style.overflow = 'hidden';
+        }
+
+        // Render current event details inside modal
+        function renderModalContent(eventKey) {
+          const evt = timelineEventsData[eventKey];
+          if (!evt) return;
+
+          const data = evt[modalActiveLang] || evt.en;
+          const dict = timelineI18n[modalActiveLang] || timelineI18n.en;
+
+          // Update Labels
+          document.getElementById('modalLblOverview').innerText = dict.lbl_overview;
+          document.getElementById('modalLblSignificance').innerText = dict.lbl_significance;
+          document.getElementById('modalLblVenue').innerText = dict.lbl_venue;
+
+          // Side Badge styling
+          const sideBadge = document.getElementById('modalSideBadge');
+          sideBadge.innerText = dict[evt.sideKey];
+          if (evt.sideType === 'groom') {
+            sideBadge.className = "text-[11px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full border bg-amber-100 text-amber-900 border-amber-300";
+          } else {
+            sideBadge.className = "text-[11px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full border bg-red-100 text-red-900 border-red-300";
+          }
+
+          // Event Info
+          document.getElementById('modalEventTitle').innerText = data.title;
+          document.getElementById('modalEventDate').innerText = data.date;
+          document.getElementById('modalEventDesc').innerText = data.desc;
+          document.getElementById('modalEventSignificance').innerText = `"${data.significance}"`;
+          document.getElementById('modalEventLocation').innerText = data.location;
+        }
+
+        // Close Modal
+        function closeTimelineModal() {
+          const modal = document.getElementById('timelineDetailModal');
+          modal.classList.add('hidden');
+          modal.classList.remove('flex');
+          document.body.style.overflow = '';
+          currentModalKey = null;
+        }
+
+        // Backdrop click to close
+        window.addEventListener('click', function(e) {
+          const modal = document.getElementById('timelineDetailModal');
+          if (e.target === modal) {
+            closeTimelineModal();
+          }
+        });
+
+        // ESC key to close
+        window.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            closeTimelineModal();
+          }
+        });
+
+        // Initialize default Hindi selection on page load
+        document.addEventListener('DOMContentLoaded', () => {
+          setModalLanguage('eng');
+        });
+      </script>
+      
+
+
+      
     </section>
 
     <!-- PAGE 2: OUR STORY -->
@@ -1006,9 +1477,712 @@
           </div>
         </div>
       </div>
+
+
+
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+      background-color: #0b1320;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    /* 3D Perspective map canvas container */
+    .map-stage {
+      perspective: 1200px;
+      transform-style: preserve-3d;
+    }
+    
+    .map-surface {
+      transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+      transform-origin: center center;
+    }
+
+    .perspective-tilt {
+      transform: rotateX(32deg) rotateZ(-3deg) scale(1.02);
+    }
+
+    .perspective-flat {
+      transform: rotateX(0deg) rotateZ(0deg) scale(1);
+    }
+
+    /* Radar scan effect */
+    @keyframes radarScan {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .radar-sweep {
+      animation: radarScan 6s linear infinite;
+    }
+
+    /* Location marker beacon pulses */
+    @keyframes ripplePulse {
+      0% {
+        transform: scale(0.6);
+        opacity: 0.9;
+      }
+      100% {
+        transform: scale(2.4);
+        opacity: 0;
+      }
+    }
+    .beacon-ring {
+      animation: ripplePulse 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+    .beacon-ring-delayed {
+      animation: ripplePulse 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      animation-delay: 1.2s;
+    }
+
+    /* Glowing flight path trail effect */
+    .glow-filter {
+      filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.75)) drop-shadow(0 0 20px rgba(14, 165, 233, 0.4));
+    }
+    .glow-orange {
+      filter: drop-shadow(0 0 10px rgba(251, 146, 60, 0.8));
+    }
+
+    /* Jet shadow */
+    .jet-shadow {
+      filter: blur(6px);
+      transform: translate(14px, 20px) scale(0.85);
+      opacity: 0.35;
+    }
+
+    /* Ambient cloud floating */
+    @keyframes floatCloud {
+      0% { transform: translateX(-10%); }
+      100% { transform: translateX(110%); }
+    }
+    .cloud-layer-1 {
+      animation: floatCloud 65s linear infinite;
+    }
+    .cloud-layer-2 {
+      animation: floatCloud 95s linear infinite;
+      animation-delay: -35s;
+    }
+
+    /* Custom scrollbar for clean UI */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="text-slate-100 min-h-screen flex flex-col justify-between selection:bg-cyan-500 selection:text-white">
+
+  <header class="relative z-30 px-4 py-3 sm:px-8 border-b border-cyan-500/20 bg-slate-950/70 backdrop-blur-md flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center space-x-3">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 via-sky-500 to-blue-400 flex items-center justify-center shadow-lg shadow-cyan-500/30 text-white">
+        <i class="fa-solid fa-plane-departure text-lg"></i>
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-lg sm:text-xl font-bold tracking-wide text-white">Flight CCU &rarr; BOUNSI</h1>
+          <span class="px-2 py-0.5 text-xs font-semibold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Live Simulation
+          </span>
+        </div>
+        <p class="text-xs text-slate-400">Netaji Subhash Chandra Bose Intl (CCU) &rarr; Bounsi, Banka, Bihar (Mandar Parvat)</p>
+      </div>
+    </div>
+
+    <!-- Quick stats badge -->
+    <div class="flex items-center gap-3 text-xs sm:text-sm">
+      <div class="hidden sm:flex flex-col text-right">
+        <span class="text-slate-400">Total Distance</span>
+        <span class="font-mono font-semibold text-cyan-300">~335 km (181 NM)</span>
+      </div>
+      <div class="h-8 w-px bg-slate-800 hidden sm:block"></div>
+      <div class="hidden md:flex flex-col text-right">
+        <span class="text-slate-400">Est. Flight Duration</span>
+        <span class="font-mono font-semibold text-white">42 mins</span>
+      </div>
+      <button id="viewToggleBtn" class="px-3.5 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-xs font-medium text-slate-200 transition-all flex items-center gap-2 shadow">
+        <i class="fa-solid fa-cube text-cyan-400"></i>
+        <span id="viewModeText">3D Tilt View</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="relative flex-1 w-full overflow-hidden flex items-center justify-center p-2 sm:p-4 select-none">
+    
+    <!-- Outer Stage for 3D Perspective -->
+    <div class="map-stage w-full max-w-6xl aspect-[16/10] sm:aspect-[16/9] relative rounded-3xl overflow-hidden border border-cyan-500/30 shadow-2xl shadow-sky-950/60 bg-gradient-to-b from-[#0a192f] via-[#091528] to-[#040914]">
+      
+      <!-- Surface that rotates in 3D -->
+      <div id="mapSurface" class="map-surface perspective-tilt relative w-full h-full">
+
+        <!-- Topography SVG Canvas (Map Terrain, River Ganges, Hooghly, State Borders) -->
+        <svg id="geoMap" viewBox="0 0 1000 650" class="w-full h-full object-cover">
+          <defs>
+            <!-- Landmass Gradients -->
+            <radialGradient id="landGlow" cx="50%" cy="50%" r="70%">
+              <stop offset="0%" stop-color="#14344e" stop-opacity="0.95"/>
+              <stop offset="60%" stop-color="#0e2338" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#06121f" stop-opacity="0.95"/>
+            </radialGradient>
+
+            <linearGradient id="biharGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#194858" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#0c2d3a" stop-opacity="0.15"/>
+            </linearGradient>
+
+            <linearGradient id="bengalGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#153e4b" stop-opacity="0.3"/>
+              <stop offset="100%" stop-color="#0a2530" stop-opacity="0.1"/>
+            </linearGradient>
+
+            <linearGradient id="flightGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#38bdf8"/>
+              <stop offset="60%" stop-color="#06b6d4"/>
+              <stop offset="100%" stop-color="#f59e0b"/>
+            </linearGradient>
+
+            <!-- Glow Filters -->
+            <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="3.5" result="blur"/>
+              <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+          </defs>
+
+          <!-- Background Satellite Elevation Grid / Contour Shapes -->
+          <rect width="1000" height="650" fill="url(#landGlow)"/>
+
+          <!-- Topographic Grid Lines -->
+          <g stroke="rgba(56, 189, 248, 0.04)" stroke-width="1">
+            <line x1="100" y1="0" x2="100" y2="650"/>
+            <line x1="200" y1="0" x2="200" y2="650"/>
+            <line x1="300" y1="0" x2="300" y2="650"/>
+            <line x1="400" y1="0" x2="400" y2="650"/>
+            <line x1="500" y1="0" x2="500" y2="650"/>
+            <line x1="600" y1="0" x2="600" y2="650"/>
+            <line x1="700" y1="0" x2="700" y2="650"/>
+            <line x1="800" y1="0" x2="800" y2="650"/>
+            <line x1="900" y1="0" x2="900" y2="650"/>
+
+            <line x1="0" y1="100" x2="1000" y2="100"/>
+            <line x1="0" y1="200" x2="1000" y2="200"/>
+            <line x1="0" y1="300" x2="1000" y2="300"/>
+            <line x1="0" y1="400" x2="1000" y2="400"/>
+            <line x1="0" y1="500" x2="1000" y2="500"/>
+            <line x1="0" y1="600" x2="1000" y2="600"/>
+          </g>
+
+          <!-- Topographic Relief Ridges / Chota Nagpur & Rajmahal Hills -->
+          <g fill="none" stroke="rgba(100, 160, 190, 0.12)" stroke-width="1.5">
+            <path d="M 320 220 Q 380 210, 430 250 T 480 300 Q 420 330, 360 280 Z" fill="rgba(30, 70, 90, 0.12)"/>
+            <path d="M 440 240 Q 510 220, 560 270 T 600 320 Q 530 350, 480 300 Z" fill="rgba(30, 70, 90, 0.1)"/>
+            <path d="M 220 320 Q 290 300, 350 350 T 390 420 Q 310 440, 240 380 Z" fill="rgba(30, 70, 90, 0.12)"/>
+            <!-- Mandar Hill Elevation Contour -->
+            <ellipse cx="530" cy="180" rx="35" ry="24" fill="rgba(245, 158, 11, 0.12)" stroke="rgba(245, 158, 11, 0.35)" stroke-width="1.5" stroke-dasharray="3,3"/>
+          </g>
+
+          <!-- State Geopolitical Zones / Outlines -->
+          <!-- BIHAR REGION HIGHLIGHT -->
+          <path d="M 160,110 L 320,100 L 450,115 L 610,130 L 680,180 L 630,225 L 530,235 L 430,220 L 300,240 L 190,230 Z" 
+                fill="url(#biharGlow)" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.6"/>
+          
+          <!-- JHARKHAND REGION -->
+          <path d="M 190,230 L 300,240 L 430,220 L 530,235 L 630,225 L 620,330 L 540,420 L 380,440 L 220,390 Z" 
+                fill="rgba(15, 35, 55, 0.3)" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.45"/>
+
+          <!-- WEST BENGAL REGION -->
+          <path d="M 630,225 L 680,180 L 730,260 L 790,320 L 860,420 L 880,560 L 760,610 L 690,530 L 620,440 L 620,330 Z" 
+                fill="url(#bengalGlow)" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="5,3" opacity="0.65"/>
+
+          <!-- River Ganges (Ganga) Pathway -->
+          <path d="M 120,165 Q 260,160 380,175 T 560,170 T 670,195 Q 730,220 740,280" 
+                fill="none" stroke="#0ea5e9" stroke-width="3.5" opacity="0.5" filter="url(#neonBlur)"/>
+          
+          <!-- River Hooghly Pathway -->
+          <path d="M 740,280 Q 755,360 760,450 T 785,550 T 820,630" 
+                fill="none" stroke="#0284c7" stroke-width="3" opacity="0.55"/>
+
+          <!-- Major River Labels -->
+          <text x="360" y="158" fill="#38bdf8" opacity="0.7" font-size="11" font-weight="600" letter-spacing="2">RIVER GANGES</text>
+          <text x="765" y="440" fill="#38bdf8" opacity="0.6" font-size="10" font-weight="600" letter-spacing="2" transform="rotate(75, 765, 440)">RIVER HOOGHLY</text>
+
+          <!-- Regional Territory Labels -->
+          <text x="380" y="130" fill="#94a3b8" font-size="24" font-weight="800" opacity="0.3" letter-spacing="8">BIHAR</text>
+          <text x="340" y="340" fill="#94a3b8" font-size="22" font-weight="800" opacity="0.25" letter-spacing="6">JHARKHAND</text>
+          <text x="690" y="380" fill="#94a3b8" font-size="22" font-weight="800" opacity="0.3" letter-spacing="6">WEST BENGAL</text>
+          <text x="830" y="270" fill="#64748b" font-size="18" font-weight="700" opacity="0.2" letter-spacing="4">BANGLADESH</text>
+          <text x="300" y="70" fill="#64748b" font-size="16" font-weight="700" opacity="0.2" letter-spacing="4">NEPAL</text>
+
+          <!-- Intermediate Landmark Cities -->
+          <!-- Bardhaman -->
+          <circle cx="700" cy="450" r="3" fill="#64748b"/>
+          <text x="712" y="454" fill="#94a3b8" font-size="11" font-weight="500">Bardhaman</text>
+
+          <!-- Asansol / Durgapur -->
+          <circle cx="615" cy="405" r="3" fill="#64748b"/>
+          <text x="625" y="409" fill="#94a3b8" font-size="11" font-weight="500">Asansol</text>
+
+          <!-- Deoghar / Jasidih -->
+          <circle cx="535" cy="290" r="3.5" fill="#64748b"/>
+          <text x="546" y="294" fill="#94a3b8" font-size="11" font-weight="500">Deoghar</text>
+
+          <!-- Bhagalpur -->
+          <circle cx="585" cy="165" r="3.5" fill="#64748b"/>
+          <text x="595" y="169" fill="#94a3b8" font-size="11" font-weight="500">Bhagalpur</text>
+
+          <!-- Patna (context) -->
+          <circle cx="280" cy="170" r="3.5" fill="#64748b" opacity="0.6"/>
+          <text x="290" y="174" fill="#64748b" font-size="11" opacity="0.6">Patna</text>
+
+          <!-- Gaya (context) -->
+          <circle cx="310" cy="260" r="3.5" fill="#64748b" opacity="0.6"/>
+          <text x="320" y="264" fill="#64748b" font-size="11" opacity="0.6">Gaya</text>
+
+          <!-- Underlying Base Route Shadow -->
+          <path id="routeBase" d="M 780,515 Q 670,360 528,185" 
+                fill="none" stroke="rgba(2, 132, 199, 0.25)" stroke-width="6" stroke-linecap="round"/>
+
+          <!-- Dashed Track Pathway -->
+          <path id="flightTrajectory" d="M 780,515 Q 670,360 528,185" 
+                fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6,8" opacity="0.75" class="glow-filter"/>
+
+          <!-- Active Traced Glowing Path (Animated via JS) -->
+          <path id="activeProgressPath" d="M 780,515 Q 670,360 528,185" 
+                fill="none" stroke="url(#flightGradient)" stroke-width="4.5" stroke-linecap="round" class="glow-filter"
+                stroke-dasharray="600" stroke-dashoffset="600"/>
+
+          <!-- Arrow markers along the path -->
+          <g fill="#38bdf8" opacity="0.8">
+            <!-- Midpoint Arrow 1 -->
+            <polygon points="695,420 683,410 689,425" transform="rotate(-30, 690, 420)" class="glow-filter"/>
+            <!-- Midpoint Arrow 2 -->
+            <polygon points="605,290 593,280 599,295" transform="rotate(-36, 600, 290)" class="glow-filter"/>
+          </g>
+
+          <!-- Origin: KOLKATA (CCU) Location Beacon -->
+          <g transform="translate(780, 515)" class="cursor-pointer" id="kolkataPin">
+            <circle cx="0" cy="0" r="28" fill="rgba(14, 165, 233, 0.25)" class="beacon-ring"/>
+            <circle cx="0" cy="0" r="18" fill="rgba(14, 165, 233, 0.35)" class="beacon-ring-delayed"/>
+            <circle cx="0" cy="0" r="8" fill="#38bdf8" filter="url(#neonBlur)"/>
+            <circle cx="0" cy="0" r="4" fill="#ffffff"/>
+          </g>
+
+          <!-- Destination: BOUNSI, BANKA Location Beacon -->
+          <g transform="translate(528, 185)" class="cursor-pointer" id="bounsiPin">
+            <circle cx="0" cy="0" r="34" fill="rgba(245, 158, 11, 0.25)" class="beacon-ring"/>
+            <circle cx="0" cy="0" r="22" fill="rgba(245, 158, 11, 0.4)" class="beacon-ring-delayed"/>
+            <circle cx="0" cy="0" r="9" fill="#f59e0b" class="glow-orange"/>
+            <circle cx="0" cy="0" r="4.5" fill="#ffffff"/>
+          </g>
+        </svg>
+
+        <!-- Dynamic Animated Airplane Element (Positioned and rotated via JS) -->
+        <div id="airplaneContainer" class="absolute pointer-events-none z-20 top-0 left-0" style="transform: translate(-100px, -100px);">
+          
+          <!-- Airplane shadow on terrain -->
+          <svg class="absolute jet-shadow w-16 h-16" viewBox="0 0 100 100">
+            <path d="M 50 15 L 53 40 L 85 58 L 85 64 L 54 58 L 53 78 L 64 88 L 64 93 L 50 89 L 36 93 L 36 88 L 47 78 L 46 58 L 15 64 L 15 58 L 47 40 Z" fill="#000000"/>
+          </svg>
+
+          <!-- Realistic Vector Commercial Airliner -->
+          <div class="relative w-16 h-16 -ml-8 -mt-8 filter drop-shadow-xl transition-transform duration-75">
+            <svg viewBox="0 0 100 100" class="w-full h-full">
+              <!-- Jet Contrail particle anchors -->
+              <circle cx="36" cy="65" r="2.5" fill="rgba(224, 242, 254, 0.7)" filter="blur(1px)"/>
+              <circle cx="64" cy="65" r="2.5" fill="rgba(224, 242, 254, 0.7)" filter="blur(1px)"/>
+
+              <!-- Wings & Stabilizers -->
+              <path d="M 50 12 C 54 12 55 22 55 35 L 94 60 C 96 61 95 65 91 65 L 54 56 L 53 78 L 67 89 C 69 91 68 93 65 93 L 50 88 L 35 93 C 32 93 31 91 33 89 L 47 78 L 46 56 L 9 65 C 5 65 4 61 6 60 L 45 35 C 45 22 46 12 50 12 Z" 
+                    fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+              
+              <!-- Fuselage Body Highlight -->
+              <ellipse cx="50" cy="48" rx="5" ry="36" fill="#ffffff"/>
+              <!-- Red Airline Wingtip & Tail livery accent -->
+              <path d="M 50 78 L 54 90 L 50 93 L 46 90 Z" fill="#dc2626"/>
+              <polygon points="90,58 94,60 91,65" fill="#dc2626"/>
+              <polygon points="10,58 6,60 9,65" fill="#dc2626"/>
+              
+              <!-- Cockpit Windshield -->
+              <path d="M 47 24 C 47 22 53 22 53 24 L 54 28 L 46 28 Z" fill="#0284c7"/>
+
+              <!-- Wing Jet Engines -->
+              <rect x="36" y="52" width="5" height="12" rx="2" fill="#475569"/>
+              <rect x="59" y="52" width="5" height="12" rx="2" fill="#475569"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- HTML Interactive Location Cards on the Map -->
+        <!-- Destination Card: Bounsi, Banka (Mandar Parvat) -->
+        <div id="cardBounsi" class="absolute z-20 transition-all duration-300 transform -translate-x-1/2 -translate-y-full hover:scale-105" style="left: 52.8%; top: 17.5%;">
+          <div class="mb-2 bg-slate-900/90 backdrop-blur-md border border-amber-400/40 rounded-2xl p-2.5 shadow-xl shadow-amber-950/40 flex items-center gap-3 w-56 text-left">
+            <div class="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 border border-amber-400/50 bg-slate-800">
+              <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=150&auto=format&fit=crop&q=80" 
+                   alt="Mandar Parvat Hill" 
+                   class="w-full h-full object-cover"
+                   onerror="this.src='https://placehold.co/100x100/1e293b/f59e0b?text=Mandar+Hill'">
+            </div>
+            <div>
+              <div class="flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                <span class="text-xs uppercase tracking-wider text-amber-400 font-bold">DESTINATION</span>
+              </div>
+              <h3 class="text-sm font-bold text-white leading-tight">Bounsi, Banka</h3>
+              <p class="text-[11px] text-slate-300 font-medium flex items-center gap-1 mt-0.5">
+                <i class="fa-solid fa-mountain text-amber-300"></i> Mandar Parvat (Bihar)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Origin Card: Kolkata (Howrah Bridge / CCU) -->
+        <div id="cardKolkata" class="absolute z-20 transition-all duration-300 transform -translate-x-1/2 translate-y-4 hover:scale-105" style="left: 78%; top: 51.5%;">
+          <div class="mt-2 bg-slate-900/90 backdrop-blur-md border border-cyan-400/40 rounded-2xl p-2.5 shadow-xl shadow-cyan-950/40 flex items-center gap-3 w-56 text-left">
+            <div class="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 border border-cyan-400/50 bg-slate-800">
+              <img src="https://images.unsplash.com/photo-1558431382-27e303142255?w=150&auto=format&fit=crop&q=80" 
+                   alt="Howrah Bridge Kolkata" 
+                   class="w-full h-full object-cover"
+                   onerror="this.src='https://placehold.co/100x100/0f172a/38bdf8?text=Kolkata'">
+            </div>
+            <div>
+              <div class="flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                <span class="text-xs uppercase tracking-wider text-cyan-400 font-bold">DEPARTURE</span>
+              </div>
+              <h3 class="text-sm font-bold text-white leading-tight">Kolkata (CCU)</h3>
+              <p class="text-[11px] text-slate-300 font-medium flex items-center gap-1 mt-0.5">
+                <i class="fa-solid fa-archway text-cyan-300"></i> Howrah / West Bengal
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ambient Floating Clouds for flight realism -->
+        <div class="absolute inset-0 pointer-events-none opacity-30 overflow-hidden">
+          <div class="cloud-layer-1 absolute -top-10 w-96 h-48 bg-white/10 rounded-full filter blur-2xl"></div>
+          <div class="cloud-layer-2 absolute top-1/2 w-[32rem] h-56 bg-sky-200/10 rounded-full filter blur-3xl"></div>
+        </div>
+
+      </div>
+
+      <!-- Compass Overlay & Scale Indicator -->
+      <div class="absolute top-4 right-4 z-20 flex flex-col items-end gap-2 pointer-events-none">
+        <div class="w-12 h-12 rounded-full border border-cyan-500/30 bg-slate-950/70 backdrop-blur-md flex items-center justify-center shadow-lg">
+          <div class="relative w-8 h-8 flex items-center justify-center">
+            <div class="absolute text-[9px] font-bold text-cyan-400 -top-1">N</div>
+            <div class="w-0.5 h-6 bg-gradient-to-b from-rose-500 via-slate-400 to-sky-400 rounded-full"></div>
+            <div class="w-6 h-0.5 bg-slate-700 absolute"></div>
+          </div>
+        </div>
+        <div class="px-2.5 py-1 rounded-md bg-slate-950/70 border border-slate-800 text-[10px] font-mono text-slate-400">
+          Scale: 1 : 2,500,000
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="relative z-30 px-4 py-4 sm:px-8 border-t border-cyan-500/20 bg-slate-950/85 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+
+      <!-- Flight Telemetry Stats -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full md:w-auto">
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl px-3 py-2 flex flex-col">
+          <span class="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Flight Status</span>
+          <span id="flightStatusText" class="font-bold text-sm text-cyan-400 flex items-center gap-1.5">
+            <i class="fa-solid fa-circle text-[8px] animate-pulse"></i> In-Flight
+          </span>
+        </div>
+
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl px-3 py-2 flex flex-col">
+          <span class="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Cruising Alt</span>
+          <span id="altitudeVal" class="font-mono font-bold text-sm text-white">18,500 FT</span>
+        </div>
+
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl px-3 py-2 flex flex-col">
+          <span class="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Ground Speed</span>
+          <span id="groundSpeedVal" class="font-mono font-bold text-sm text-emerald-400">460 KM/H</span>
+        </div>
+
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl px-3 py-2 flex flex-col">
+          <span class="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Distance Covered</span>
+          <span id="distanceVal" class="font-mono font-bold text-sm text-amber-400">120 / 335 KM</span>
+        </div>
+      </div>
+
+      <!-- Playback and Speed Control Buttons -->
+      <div class="flex items-center gap-3 w-full md:w-auto justify-between md:justify-end">
+        
+        <!-- Progress Bar and percentage -->
+        <div class="flex-1 md:w-48 flex flex-col gap-1 mr-2">
+          <div class="flex justify-between text-[11px] font-mono text-slate-400">
+            <span>Route Complete</span>
+            <span id="progressPercent" class="text-cyan-400 font-semibold">0%</span>
+          </div>
+          <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden border border-slate-700/60 cursor-pointer" id="progressTrack">
+            <div id="progressBar" class="bg-gradient-to-r from-sky-500 to-amber-400 h-full w-0 transition-all duration-75"></div>
+          </div>
+        </div>
+
+        <!-- Controls: Play/Pause/Replay -->
+        <div class="flex items-center gap-1.5 bg-slate-900/80 border border-slate-800 p-1 rounded-xl">
+          <button id="playPauseBtn" class="w-9 h-9 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white flex items-center justify-center transition-all shadow-md shadow-cyan-600/30" title="Play / Pause">
+            <i id="playPauseIcon" class="fa-solid fa-pause text-xs"></i>
+          </button>
+          
+          <button id="replayBtn" class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center transition-all" title="Restart Flight">
+            <i class="fa-solid fa-arrow-rotate-left text-xs"></i>
+          </button>
+        </div>
+
+        <!-- Speed Selector (1x, 2x, 4x) -->
+        <div class="flex items-center bg-slate-900/80 border border-slate-800 p-1 rounded-xl text-xs font-semibold">
+          <button class="speed-btn px-2.5 py-1.5 rounded-lg text-cyan-400 bg-cyan-950/80 border border-cyan-800" data-speed="1">1x</button>
+          <button class="speed-btn px-2.5 py-1.5 rounded-lg text-slate-400 hover:text-white" data-speed="2">2x</button>
+          <button class="speed-btn px-2.5 py-1.5 rounded-lg text-slate-400 hover:text-white" data-speed="3">3x</button>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // DOM Elements
+      const trajectory = document.getElementById('flightTrajectory');
+      const activePath = document.getElementById('activeProgressPath');
+      const airplane = document.getElementById('airplaneContainer');
+      const mapSurface = document.getElementById('mapSurface');
+      const geoMap = document.getElementById('geoMap');
+      
+      const playPauseBtn = document.getElementById('playPauseBtn');
+      const playPauseIcon = document.getElementById('playPauseIcon');
+      const replayBtn = document.getElementById('replayBtn');
+      const speedBtns = document.querySelectorAll('.speed-btn');
+      const viewToggleBtn = document.getElementById('viewToggleBtn');
+      const viewModeText = document.getElementById('viewModeText');
+      const progressTrack = document.getElementById('progressTrack');
+      const progressBar = document.getElementById('progressBar');
+      
+      const altitudeVal = document.getElementById('altitudeVal');
+      const groundSpeedVal = document.getElementById('groundSpeedVal');
+      const distanceVal = document.getElementById('distanceVal');
+      const progressPercent = document.getElementById('progressPercent');
+      const flightStatusText = document.getElementById('flightStatusText');
+
+      // State variables
+      const totalFlightDistanceKm = 335;
+      let totalLength = trajectory.getTotalLength();
+      let currentProgress = 0; // 0.0 to 1.0
+      let isPlaying = true;
+      let playbackSpeed = 1.0;
+      let animationFrameId = null;
+      let lastTimestamp = null;
+      const baseDurationSeconds = 14; // Time to traverse entire route at 1x
+      let is3DTilt = true;
+
+      // Initialize path stroke dash properties for dynamic glowing tracing
+      activePath.style.strokeDasharray = totalLength;
+      activePath.style.strokeDashoffset = totalLength;
+
+      // Handle Map Responsive Coordinates to Screen Pixels
+      function getScreenCoordinates(svgPoint) {
+        const svgRect = geoMap.getBoundingClientRect();
+        const scaleX = svgRect.width / 1000;
+        const scaleY = svgRect.height / 650;
+        return {
+          x: svgPoint.x * scaleX,
+          y: svgPoint.y * scaleY
+        };
+      }
+
+      function updateFlightPosition(progress) {
+        if (!trajectory) return;
+
+        // Clamp between 0 and 1
+        const clampedProgress = Math.max(0, Math.min(1, progress));
+        const currentDistance = clampedProgress * totalLength;
+
+        // Current point along SVG spline
+        const currentPoint = trajectory.getPointAtLength(currentDistance);
+        
+        // Sampling ahead to calculate tangent vector & rotation angle
+        const delta = 1.5;
+        const nextDist = Math.min(totalLength, currentDistance + delta);
+        const prevDist = Math.max(0, currentDistance - delta);
+        
+        const ptNext = trajectory.getPointAtLength(nextDist);
+        const ptPrev = trajectory.getPointAtLength(prevDist);
+
+        const dx = ptNext.x - ptPrev.x;
+        const dy = ptNext.y - ptPrev.y;
+        
+        // Angle in radians & degrees
+        let angle = Math.atan2(dy, dx) * (180 / Math.PI);
+        // Plane SVG naturally points towards top (90 deg offset)
+        let planeHeading = angle + 90;
+
+        // Map scale offset
+        const screenCoords = getScreenCoordinates(currentPoint);
+        airplane.style.transform = `translate(${screenCoords.x}px, ${screenCoords.y}px) rotate(${planeHeading}deg)`;
+
+        // Update active route dash glow
+        const offset = totalLength - currentDistance;
+        activePath.style.strokeDashoffset = offset;
+
+        // Update HUD Metrics
+        const currentDistKm = Math.round(clampedProgress * totalFlightDistanceKm);
+        const pct = Math.round(clampedProgress * 100);
+        
+        progressBar.style.width = `${pct}%`;
+        progressPercent.textContent = `${pct}%`;
+        distanceVal.textContent = `${currentDistKm} / ${totalFlightDistanceKm} KM`;
+
+        // Telemetry simulations: climb -> cruise -> descent
+        let alt = 0;
+        let speed = 0;
+
+        if (clampedProgress < 0.25) {
+          // Takeoff & Climb from Kolkata
+          const ratio = clampedProgress / 0.25;
+          alt = Math.round(500 + ratio * 19500);
+          speed = Math.round(220 + ratio * 280);
+          flightStatusText.innerHTML = '<i class="fa-solid fa-arrow-trend-up text-cyan-400"></i> Climbing Out';
+        } else if (clampedProgress < 0.75) {
+          // Cruising over Jharkhand / South Bihar
+          alt = 20000 + Math.round(Math.sin(clampedProgress * 10) * 150);
+          speed = 505 + Math.round(Math.cos(clampedProgress * 8) * 15);
+          flightStatusText.innerHTML = '<i class="fa-solid fa-circle text-[8px] animate-pulse text-emerald-400"></i> Cruising Level';
+        } else if (clampedProgress < 0.98) {
+          // Descent into Bounsi / Banka
+          const ratio = (clampedProgress - 0.75) / 0.23;
+          alt = Math.round(20000 * (1 - ratio) + 850);
+          speed = Math.round(500 * (1 - ratio * 0.55));
+          flightStatusText.innerHTML = '<i class="fa-solid fa-arrow-trend-down text-amber-400"></i> Descending to Bounsi';
+        } else {
+          // Arrived
+          alt = 450;
+          speed = 0;
+          flightStatusText.innerHTML = '<i class="fa-solid fa-location-dot text-amber-500"></i> Arrived in Bounsi';
+        }
+
+        altitudeVal.textContent = `${alt.toLocaleString()} FT`;
+        groundSpeedVal.textContent = `${speed} KM/H`;
+      }
+
+      function animate(timestamp) {
+        if (!lastTimestamp) lastTimestamp = timestamp;
+        const delta = (timestamp - lastTimestamp) / 1000;
+        lastTimestamp = timestamp;
+
+        if (isPlaying) {
+          currentProgress += (delta / baseDurationSeconds) * playbackSpeed;
+          
+          if (currentProgress >= 1.0) {
+            currentProgress = 1.0;
+            isPlaying = false;
+            updatePlayPauseButton();
+          }
+          
+          updateFlightPosition(currentProgress);
+        }
+
+        animationFrameId = requestAnimationFrame(animate);
+      }
+
+      function updatePlayPauseButton() {
+        if (isPlaying) {
+          playPauseIcon.className = "fa-solid fa-pause text-xs";
+          playPauseBtn.classList.replace('bg-emerald-600', 'bg-cyan-600');
+        } else {
+          playPauseIcon.className = "fa-solid fa-play text-xs";
+          playPauseBtn.classList.replace('bg-cyan-600', 'bg-emerald-600');
+        }
+      }
+
+      // Event Listeners: Play / Pause
+      playPauseBtn.addEventListener('click', () => {
+        if (currentProgress >= 1.0) {
+          currentProgress = 0;
+        }
+        isPlaying = !isPlaying;
+        updatePlayPauseButton();
+      });
+
+      // Event Listeners: Replay
+      replayBtn.addEventListener('click', () => {
+        currentProgress = 0;
+        isPlaying = true;
+        updatePlayPauseButton();
+        updateFlightPosition(0);
+      });
+
+      // Event Listeners: Speed Toggle
+      speedBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          speedBtns.forEach(b => {
+            b.classList.remove('text-cyan-400', 'bg-cyan-950/80', 'border', 'border-cyan-800');
+            b.classList.add('text-slate-400');
+          });
+          btn.classList.remove('text-slate-400');
+          btn.classList.add('text-cyan-400', 'bg-cyan-950/80', 'border', 'border-cyan-800');
+          
+          playbackSpeed = parseFloat(btn.dataset.speed);
+        });
+      });
+
+      // Scrubbing via Progress Bar
+      progressTrack.addEventListener('click', (e) => {
+        const rect = progressTrack.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        currentProgress = Math.max(0, Math.min(1, clickX / rect.width));
+        updateFlightPosition(currentProgress);
+      });
+
+      // Perspective View Toggle (3D Tilt vs Top-Down Orthographic)
+      viewToggleBtn.addEventListener('click', () => {
+        is3DTilt = !is3DTilt;
+        if (is3DTilt) {
+          mapSurface.classList.remove('perspective-flat');
+          mapSurface.classList.add('perspective-tilt');
+          viewModeText.textContent = "3D Tilt View";
+        } else {
+          mapSurface.classList.remove('perspective-tilt');
+          mapSurface.classList.add('perspective-flat');
+          viewModeText.textContent = "Top-Down View";
+        }
+        setTimeout(() => updateFlightPosition(currentProgress), 100);
+      });
+
+      // Window resize handling to keep airplane aligned perfectly on responsive resize
+      window.addEventListener('resize', () => {
+        totalLength = trajectory.getTotalLength();
+        activePath.style.strokeDasharray = totalLength;
+        updateFlightPosition(currentProgress);
+      });
+
+      // Initial start
+      updateFlightPosition(0);
+      requestAnimationFrame(animate);
+    });
+  </script>
+
+
+
+
+
     </section>
 
-    <!-- PAGE 10: DIGITAL PATRIKA (CARD) -->
+<!-- PAGE 10: DIGITAL PATRIKA (CARD) -->
     <section id="page-card" class="page-view hidden max-w-4xl mx-auto px-4 py-16">
       <div class="text-center mb-6">
         <p class="text-xs uppercase font-serif font-bold text-gold-600 tracking-widest mb-1">Traditional Invitation</p>
@@ -1026,41 +2200,149 @@
       </div>
 
       <!-- Royal Card View -->
-      <div id="printable-invitation" class="bg-gradient-to-b from-maroon-950 via-maroon-900 to-maroon-950 border-4 border-gold-400 p-8 md:p-14 rounded-3xl shadow-2xl text-center text-amber-50 relative overflow-hidden">
+      <div id="printable-invitation" class="bg-gradient-to-b from-maroon-950 via-maroon-900 to-maroon-950 border-4 border-gold-400 p-6 sm:p-10 md:p-14 rounded-3xl shadow-2xl text-center text-amber-50 relative overflow-hidden">
         <!-- Golden Corners -->
-        <div class="absolute top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-gold-300"></div>
-        <div class="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-gold-300"></div>
-        <div class="absolute bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-gold-300"></div>
-        <div class="absolute bottom-4 right-4 w-12 h-12 border-b-2 border-r-2 border-gold-300"></div>
+        <div class="absolute top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-gold-300 pointer-events-none"></div>
+        <div class="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-gold-300 pointer-events-none"></div>
+        <div class="absolute bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-gold-300 pointer-events-none"></div>
+        <div class="absolute bottom-4 right-4 w-12 h-12 border-b-2 border-r-2 border-gold-300 pointer-events-none"></div>
 
-        <p class="font-devanagari text-2xl md:text-3xl text-gold-300 font-bold mb-2">॥ श्री गणेशाय नमः ॥</p>
-        <p class="text-xs tracking-widest text-gold-200 uppercase mb-4 font-serif">शुभ विवाह निमंत्रण</p>
+        <!-- Invocations -->
+        <p class="font-devanagari text-2xl md:text-3xl text-gold-300 font-bold mb-1">॥ श्री गणेशाय नमः ॥</p>
+        <p class="text-xs tracking-widest text-gold-200 uppercase mb-4 font-serif">शुभ विवाह निमंत्रण पत्र</p>
 
         <p class="text-xs md:text-sm text-amber-100 max-w-lg mx-auto leading-relaxed mb-6 font-serif">
           Together with their families, we cordially invite your gracious company and blessings on the joyous union of
         </p>
 
+        <!-- Couple Details -->
         <div class="my-6">
-          <h3 class="text-4xl md:text-6xl font-serif font-bold text-gold-300">Suraj Kumar</h3>
-          <p class="text-xs text-amber-200 mt-1 font-serif">(Son of Smt. Punam Devi &amp; Sri Rajesh Sah)</p>
+          <h3 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-gold-300">Suraj Kumar</h3>
+          <p class="text-xs text-amber-200 mt-1 font-serif">
+            Son of <strong>Smt. Punam Devi</strong> &amp; <strong>Sri Rajesh Sah</strong>
+          </p>
+          <p class="text-[11px] text-amber-200/80 font-serif">Nilachal Abasan, Hatiara, NewTown, Kolkata - 700157</p>
           
           <div class="my-3 font-script text-3xl text-gold-400">weds</div>
 
-          <h3 class="text-4xl md:text-6xl font-serif font-bold text-gold-300">Anjali Kumari</h3>
-          <p class="text-xs text-amber-200 mt-1 font-serif">(Daughter of Smt. Babita Devi &amp; Sri Sunil Kumar Sah)</p>
+          <h3 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-gold-300">Anjali Kumari</h3>
+          <p class="text-xs text-amber-200 mt-1 font-serif">
+            Daughter of <strong>Smt. Babita Devi</strong> &amp; <strong>Sri Sunil Kumar Sah</strong>
+          </p>
+          <p class="text-[11px] text-amber-200/80 font-serif">Kushmaha, Bounsi, Banka - 813104 (Bihar)</p>
         </div>
 
-        <div class="border-t border-b border-gold-500/50 py-4 my-6 max-w-md mx-auto text-xs text-gold-200 space-y-1 font-serif">
+        <!-- Summary Date Banner -->
+        <div class="border-t border-b border-gold-500/50 py-3 my-6 max-w-md mx-auto text-xs text-gold-200 space-y-1 font-serif">
           <p class="font-bold text-white text-base">🗓️ 21 November 2026 – 27 November 2026</p>
           <p>Kolkata (West Bengal) ↔ Banka (Bihar)</p>
         </div>
 
-        <div class="text-xs text-amber-200/90 leading-relaxed max-w-md mx-auto font-serif italic">
+        <!-- ================= RITUAL PROGRAM DETAILS ================= -->
+        <div class="my-8 max-w-2xl mx-auto text-left">
+          <div class="text-center mb-6">
+            <span class="inline-block text-[11px] uppercase tracking-widest font-serif font-bold text-gold-300 border-b border-gold-400 pb-1">
+              मांगलिक कार्यक्रम • Auspicious Ceremonies
+            </span>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            
+            <!-- Groom Side Rituals (Kolkata) -->
+            <div class="bg-maroon-900/60 border border-gold-400/60 p-4 rounded-2xl shadow-inner">
+              <div class="flex items-center gap-1.5 mb-3 border-b border-gold-500/40 pb-2">
+                <span class="text-xs">⚜️</span>
+                <h4 class="text-xs font-serif font-bold uppercase tracking-wider text-gold-300">
+                  Groom Side (Kolkata)
+                </h4>
+              </div>
+
+              <div class="space-y-3 text-xs">
+                <!-- Haldi -->
+                <div class="border-l-2 border-gold-400 pl-2.5">
+                  <p class="font-bold text-gold-200 flex items-center justify-between">
+                    <span>🌼 Haldi Ceremony</span>
+                    <span class="text-[11px] font-normal text-amber-300">21 Nov 2026</span>
+                  </p>
+                  <p class="text-[11px] text-amber-100/80">Kolkata Residence • Sacred Ubtan &amp; Blessings</p>
+                </div>
+
+                <!-- Mehndi -->
+                <div class="border-l-2 border-gold-400 pl-2.5">
+                  <p class="font-bold text-gold-200 flex items-center justify-between">
+                    <span>🌿 Mehndi Celebration</span>
+                    <span class="text-[11px] font-normal text-amber-300">22 Nov 2026</span>
+                  </p>
+                  <p class="text-[11px] text-amber-100/80">Henna Evening, Music &amp; Family Celebrations</p>
+                </div>
+
+                <!-- Mandap / Barat -->
+                <div class="border-l-2 border-gold-400 pl-2.5">
+                  <p class="font-bold text-gold-200 flex items-center justify-between">
+                    <span>🪷 Mandap &amp; Barat Departure</span>
+                    <span class="text-[11px] font-normal text-amber-300">23 Nov 2026</span>
+                  </p>
+                  <p class="text-[11px] text-amber-100/80">Mandap Puja in Kolkata ➔ Departure to Banka</p>
+                </div>
+
+                <!-- Reception -->
+                <div class="border-l-2 border-gold-400 pl-2.5">
+                  <p class="font-bold text-gold-200 flex items-center justify-between">
+                    <span>💐 Grand Wedding Reception</span>
+                    <span class="text-[11px] font-normal text-amber-300">27 Nov 2026</span>
+                  </p>
+                  <p class="text-[11px] text-amber-100/80">Celebratory Dinner &amp; Felicitations in Kolkata</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bride Side Rituals (Banka) -->
+            <div class="bg-maroon-900/60 border border-gold-400/60 p-4 rounded-2xl shadow-inner">
+              <div class="flex items-center gap-1.5 mb-3 border-b border-gold-500/40 pb-2">
+                <span class="text-xs">🌺</span>
+                <h4 class="text-xs font-serif font-bold uppercase tracking-wider text-gold-300">
+                  Bride Side (Banka, Bihar)
+                </h4>
+              </div>
+
+              <div class="space-y-3 text-xs">
+                <!-- Bride Haldi & Mehndi -->
+                <div class="border-l-2 border-gold-400 pl-2.5">
+                  <p class="font-bold text-gold-200 flex items-center justify-between">
+                    <span>🌼🌿 Haldi &amp; Mehndi Rituals</span>
+                    <span class="text-[11px] font-normal text-amber-300">23 Nov 2026</span>
+                  </p>
+                  <p class="text-[11px] text-amber-100/80">Bridal Ubtan, Folk Henna &amp; Traditional Songs</p>
+                  <p class="text-[10px] text-amber-200/60 italic">Kushmaha, Bounsi, Banka</p>
+                </div>
+
+                <!-- Barat & Vivah -->
+                <div class="border-l-2 border-gold-400 pl-2.5">
+                  <p class="font-bold text-gold-200 flex items-center justify-between">
+                    <span>🥁 Barat Swagat &amp; Shubha Vivah</span>
+                    <span class="text-[11px] font-normal text-amber-300">24 Nov 2026</span>
+                  </p>
+                  <p class="text-[11px] text-amber-100/80">Barat Welcoming, Jaimala, Saptapadi &amp; Kanyadaan</p>
+                  <p class="text-[10px] text-amber-200/60 italic">Kushmaha, Bounsi, Banka</p>
+                </div>
+
+                <div class="mt-4 p-2.5 bg-black/20 rounded-xl border border-gold-400/30 text-[11px] text-amber-100/90 italic text-center">
+                  "विवाह के पावन सात फेरों का साक्षी बनकर नवदंपति को अखंड सौभाग्य का आशीर्वाद प्रदान करें।"
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- ================= END RITUAL PROGRAM DETAILS ================= -->
+
+        <!-- Emotional Closing & Blessings -->
+        <div class="text-xs text-amber-200/90 leading-relaxed max-w-md mx-auto font-serif italic mt-6">
           "Your gracious presence will bring boundless warmth and blessings to this new journey of love, culture, and togetherness."
         </div>
 
-        <p class="text-xs font-serif font-bold text-gold-400 mt-8 uppercase tracking-widest">
-          — Sah &amp; Kumar Families —
+        <p class="text-xs font-serif font-bold text-gold-400 mt-6 uppercase tracking-widest">
+          — Sah &amp; Families —
         </p>
       </div>
     </section>
@@ -1159,6 +2441,14 @@
             <input type="text" id="blessing-relation" placeholder="Relationship (e.g. Family Elder, Friend, Well-wisher)" class="text-xs p-3 rounded-xl border border-gray-300 focus:outline-none focus:border-gold-500">
           </div>
           <textarea id="blessing-message" required rows="3" placeholder="Share your auspicious wishes and blessing..." class="w-full text-xs p-3 rounded-xl border border-gray-300 focus:outline-none focus:border-gold-500"></textarea>
+          
+          <img 
+            src="./assets/img/qr.png" 
+            alt="Shree Ganesh" 
+            class="mx-auto block mb-3"
+            style="width: 150px; height: 150px; filter: drop-shadow(0 0 10px var(--gold-glow));" 
+          />
+          
           <button type="submit" class="px-8 py-3 bg-maroon-900 text-gold-300 font-serif font-bold text-xs uppercase tracking-wider rounded-xl hover:bg-maroon-800 transition shadow">
             Post Blessing 🌸
           </button>
@@ -1293,7 +2583,7 @@
       </div>
       
       <p class="text-xs text-gold-200 font-serif">21 November 2026 – 27 November 2026</p>
-      <p class="text-xs text-amber-200/80 italic font-serif">With deep affection and blessings from both Sah &amp; Kumar families</p>
+      <p class="text-xs text-amber-200/80 italic font-serif">With deep affection and blessings from both Sah &amp; families</p>
 
       <div class="pt-6 border-t border-gold-900/60 flex flex-wrap justify-center gap-4 text-xs text-amber-200/80 font-serif">
         <button onclick="navigateTo('home')" class="hover:text-gold-300">Home</button>
@@ -1628,6 +2918,8 @@
 
     function applyLanguage(lang) {
       currentLang = lang;
+
+      setModalLanguage(lang);
       
       const buttons = [
         { id: 'langEnBtn', code: 'en' },
